@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2cafca8dd5261e0408f9b3800482ca63
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnableChunk: {instanceID: 0}
+  - chunkSpawnLocation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
