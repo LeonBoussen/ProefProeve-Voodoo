@@ -25,6 +25,7 @@ public class MovingObject : MonoBehaviour
             direction = (touchPosition - transform.position);
             rb.velocity = new Vector2(direction.x, direction.y) * moveSpeed;
 
+
             if (touch.phase == TouchPhase.Ended)
                 rb.velocity = Vector3.zero;
 
