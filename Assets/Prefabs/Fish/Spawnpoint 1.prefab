@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Collectables: {fileID: 6293272578158849343, guid: ceaf3a8d009c34944ad684dcd5d27737, type: 3}
-  maxX: 3.5
+  maxX: -3
   minX: 3
-  maxY: 4
-  minY: -4
-  TimeBetweenSpawn: 0.7
+  maxY: 0
+  minY: 0
+  TimeBetweenSpawn: 5

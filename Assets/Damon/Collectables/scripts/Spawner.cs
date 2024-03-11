@@ -31,7 +31,7 @@ public class Spawner : MonoBehaviour
         float X = Random.Range(minX, maxY);
         float Y = Random.Range(minY, maxY);
 
-        Vector3 fishRotation = new Vector3(-90.0f, 0.0f, 0.0f);
+        Vector3 fishRotation = new Vector3(0.0f, 0.0f, 0.0f);
 
         GameObject fish = Instantiate(Collectables, transform.position + new Vector3(X, Y, 0), Quaternion.Euler(fishRotation));
         fish.transform.parent = transform;
