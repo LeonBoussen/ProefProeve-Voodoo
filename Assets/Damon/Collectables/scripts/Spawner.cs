@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
             SpawnTime = Time.time + TimeBetweenSpawn;
         }
 
-        
+
     }
 
 
