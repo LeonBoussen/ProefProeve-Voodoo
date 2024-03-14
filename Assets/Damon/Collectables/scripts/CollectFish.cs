@@ -7,7 +7,6 @@ public class CollectFish : MonoBehaviour
     [SerializeField] private float speed;
 
     public GameManager GM;
-    public Vector3 rotationAngles = new(-0, 90, 90);
 
     private void OnTriggerEnter2D(Collider2D Hook)
     {
@@ -20,7 +19,6 @@ public class CollectFish : MonoBehaviour
 
     void Update()
     {
-        // Rotate the GameObject by the specified angles
-        //transform.Rotate(rotationAngles);
+
     }
 }
