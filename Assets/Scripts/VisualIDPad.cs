@@ -12,6 +12,7 @@ public class VisualIDPad : MonoBehaviour
     public new GameObject gameObject;
 
     // Update is called once per frame
+    //dit is een test voor git
     void Update()
     {
         if (Input.touchCount > 0)
